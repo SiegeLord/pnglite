@@ -105,6 +105,6 @@ char* png_error_string(int error);
 
 int png_get_data(png_t* png, ubyte* data);
 
-int png_set_data(png_t* png, uint width, uint height, char depth, int color, ubyte* data);
+int png_set_data(png_t* png, uint width, uint height, ubyte depth, int color, ubyte* data);
 
 int png_close_file(png_t* png);
